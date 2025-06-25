@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paint Spraying Project</title>
+  <style>
+    /* Simple styling for clarity */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background: #333;
+      padding: 1em;
+    }
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ✅ NAVIGATION with HTML bookmarks -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#pictures">Pictures</a>
+    <a href="#contact">Contact</a>
+    <a href="#videos">Videos</a>
+  </nav>
+
+  <!-- ✅ HOME SECTION -->
+  <section id="home">
+    <h1>Welcome to Paint Spraying Services</h1>
+    <p>We offer professional paint spraying for vehicles, furniture, and more. Browse our gallery, watch our videos, and contact us for a quote!</p>
+  </section>
+
+  <!-- ✅ PICTURES SECTION -->
+  <section id="pictures">
+    <h2>Our Recent Projects</h2>
+    <img src="https://via.placeholder.com/300x200" alt="Spraying a car" width="300">
+    <img src="https://via.placeholder.com/300x200" alt="Finished painted furniture" width="300">
+  </section>
+
+  <!-- ✅ CONTACT FORM SECTION -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <!-- ✅ VIDEO SECTION -->
+  <section id="videos">
+    <h2>Watch Us in Action</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_HERE" 
+      title="YouTube video player" frameborder="0" 
+      allowfullscreen></iframe>
+  </section>
+
+  <!-- ✅ FOOTER -->
+  <footer>
+    <p>&copy; 2025 Paint Spraying Services | All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
